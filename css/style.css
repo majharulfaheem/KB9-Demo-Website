@@ -1,0 +1,368 @@
+/* here is comments */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Poppins', sans-serif;
+}
+a, a hover{
+    text-decoration: none;
+}
+/*  Globel CSS Start    */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+.col-3{
+    width: 25%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+/*  Globel CSS End  */
+
+.header{
+    width: 100%;
+    padding: 0x 0px;
+    float: left;
+}
+.header-left{
+    width: 100%;
+    height: 470px;
+    float: left;
+    background: #015761;
+}
+.header-left h3{
+    width: auto;
+    font-size: 16px;
+    padding: 15px 0px 0px 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: yellow;
+}
+.menu{
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0px 0px 0px 20px;
+    color: #fff;
+    transition: 1s;
+}
+.menu li a:hover, .menu li a:focus{
+    color: yellow;
+}
+
+.header-left h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 150px 0px 0px 120px;
+    text-transform: capitalize;
+    color: yellow;
+}
+.header-left h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 10px 0px 0px 120px;
+    text-transform: capitalize;
+    color: white;
+}
+.header-left p{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 0px 0px 120px;
+    text-transform: capitalize;
+    color: yellow;
+}
+/*  Social Media Share Icon CSS     */
+.fbs{
+    width: 120px;
+    position: fixed;
+    top: 36%;
+    right: -97px;
+    cursor: pointer;
+    transition: 1s;
+}
+.fbs:hover{
+    width: 120px;
+    position: fixed;
+    top: 36%;
+    right: -5px;
+}
+.tws{
+    width: 120px;
+    position: fixed;
+    top: 40%;
+    right: -97px;
+    cursor: pointer;
+    transition: 1s;
+}
+.tws:hover{
+    width: 120px;
+    position: fixed;
+    top: 40%;
+    right: -5px;
+}
+.lis{
+    width: 120px;
+    position: fixed;
+    top: 44%;
+    right: -97px;
+    cursor: pointer;
+    transition: 1s;
+}
+.lis:hover{
+    width: 120px;
+    position: fixed;
+    top: 44%;
+    right: -5px;
+}
+.res{
+    width: 120px;
+    position: fixed;
+    top: 48%;
+    right: -97px;
+    cursor: pointer;
+    transition: 1s;
+}
+.res:hover{
+    width: 120px;
+    position: fixed;
+    top: 48%;
+    right: -5px;
+}
+.tms{
+    width: 120px;
+    position: fixed;
+    top: 52%;
+    right: -97px;
+    cursor: pointer;
+    transition: 1s;
+}
+.tms:hover{
+    width: 120px;
+    position: fixed;
+    top: 52%;
+    right: -5px;
+}
+.pis{
+    width: 120px;
+    position: fixed;
+    top: 56%;
+    right: -97px;
+    cursor: pointer;
+    transition: 1s;
+}
+.pis:hover{
+    width: 120px;
+    position: fixed;
+    top: 56%;
+    right: -5px;
+}
+.vks{
+    width: 120px;
+    position: fixed;
+    top: 60%;
+    right: -97px;
+    cursor: pointer;
+    transition: 1s;
+}
+.vks:hover{
+    width: 120px;
+    position: fixed;
+    top: 60%;
+    right: -5px;
+}
+
+/*  about section CSS   */
+.about-section{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    text-align: center;
+}
+.custom{
+    background: #F0F0F0;
+}
+.about-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px;
+    color: #00555F;
+}
+.about-section p{
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 0px 190px;
+    color: #000;
+    margin-bottom: 20px;
+}
+button{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 7px 15px;
+    background: yellow;
+    color: #00555F;
+    border: 2px solid yellow;
+    margin-bottom: 20px;
+}
+
+.showreel-section{
+    width: 100%;
+    float: left;
+}
+.showreel-section h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #00555F;
+    padding: 50px;
+    text-align: center;
+}
+
+/*  Photos Section CSS  */
+
+.photos-section{
+    width: 100%;
+    float: left;
+}
+.text-section{
+    width: 100%;
+    float: left;
+}
+.text-section h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #00555F;
+    margin: 85px 0px 50px 0px;
+    text-align: center;
+}
+
+.image-section{
+    width: 97%;
+    text-align: center;
+}
+.image-section img{
+    width: 100%;
+    height: 265px;
+    margin: 0px 10px;
+}
+
+/*  Contact Section CSS */
+.contact-right{
+    width: 100%;
+    float: left;
+    background: #015761;
+}
+.contact-right h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 70px 0px 20px 120px;
+    text-transform: capitalize;
+    color: yellow;
+}
+.contact-right h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 10px 0px 0px 120px;
+    text-transform: capitalize;
+    color: white;
+}
+.contact-right p{
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 500;
+    margin: 10px 0px 20px 120px;
+    text-transform: capitalize;
+    color: white;
+}
+.contact-right p span{
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin: ;
+    text-transform: capitalize;
+    color: white;
+}
+
+.social-media{
+    width: 100%;
+    float: left;
+    margin: 10px 0px 20px 120px;
+}
+.social-media li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 0px 60px;
+}
+.social-media li a{
+
+
+}
+.social-media li a img{
+    height: 15px;
+    width: 15px;
+}
+
+/* footer-section code start*/
+.footer-section{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #015761;
+    text-align: center;
+}
+.footer-section p{
+    font-size: 12px;
+    font-weight: 400;
+    color: yellow;
+}
+.footer-section p a{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+/* footer-section code end*/
